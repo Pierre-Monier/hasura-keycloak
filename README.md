@@ -92,7 +92,7 @@ Go to Clients -> `hasura` -> Mappers. Click on "Create" and enter the following 
 |------------------|--------------------------------------------------|
 | Name             | `x-hasura-default-role`                          |
 | Mapper Type      | Hardcoded claim                                  |
-| Token Claim Name | `https://hasura\.io/jwt/claims.x-hasura-user-id` |
+| Token Claim Name | `https://hasura\.io/jwt/claims.x-hasura-default-role` |
 | Claim value      | `user`                                           |
 | Claim JSON Type  | String                                           |
 
